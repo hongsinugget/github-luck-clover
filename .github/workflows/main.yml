@@ -34,4 +34,3 @@ jobs:
           git add fortune.svg result.json
           git commit -m "Update daily fortune" || echo "No changes to commit"
           git push
-
