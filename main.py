@@ -43,7 +43,7 @@ try:
         img_data = ""
 
     svg_content = f"""
-    <svg width="450" height="280" viewBox="0 0 450 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="450" height="280" viewBox="0 0 450 300" fill="none" xmlns="http://www.w3.org/2000/svg">
         <foreignObject width="100%" height="100%">
             <div xmlns="http://www.w3.org/1999/xhtml">
                 <style>
@@ -52,12 +52,13 @@ try:
                         height: 280px; 
                         background: #1a1a1a;
                         border-radius: 20px; 
-                        padding: 28px; 
+                        padding: 32px; 
                         color: #f5f5f5;
                         font-family: 'Segoe UI', Roboto, sans-serif; 
                         box-sizing: border-box;
                         display: flex;
                         flex-direction: column;
+                        justify-content: space-between;
                     }}
                     .card-header {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }}
                     .title {{ font-size: 18px; color: #f0f6fc; font-weight: 800; letter-spacing: 0.5px; }}
