@@ -1,48 +1,55 @@
 
-    <svg width="450" height="300" viewBox="0 0 450 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="360" height="220" viewBox="0 0 360 220" fill="none" xmlns="http://www.w3.org/2000/svg">
         <foreignObject width="100%" height="100%">
             <div xmlns="http://www.w3.org/1999/xhtml">
                 <style>
                     .fortune-card {
-                        width: 450px; 
-                        height: 300px; /* 검은 박스 높이를 전체 SVG 높이와 맞췄습니다 */
+                        width: 360px; 
+                        height: 220px; 
                         background: #1a1a1a;
-                        border-radius: 24px; 
-                        padding: 30px; /* 상하좌우 여백을 균일하게 줬습니다 */
+                        border-radius: 16px; 
+                        padding: 20px; 
                         color: #f5f5f5;
                         font-family: 'Segoe UI', Roboto, sans-serif; 
                         box-sizing: border-box;
                         display: flex;
                         flex-direction: column;
+                        justify-content: space-between;
                     }
-                    .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
-                    .title { font-size: 15px; color: #f0f6fc; font-weight: 600; }
-                    .clover { width: 65px; height: 65px; animation: float 3s ease-in-out infinite; }
-                    @keyframes float { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-8px) rotate(5deg); } }
-                    .stats-section { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
-                    .grass-icon { width: 14px; height: 14px; background-color: #39d353; border-radius: 3px; }
-                    .commit-count { font-size: 28px; font-weight: bold; color: #f0f6fc; }
-                    .commit-label { font-size: 14px; color: #8b949e; margin-left: 5px; }
-                    .divider { height: 1px; background-color: #30363d; margin: 15px 0; }
+                    .card-header { display: flex; justify-content: space-between; align-items: center; }
                     
-                    /* 운세 텍스트가 들어가는 공간을 유연하게 늘려 하단 푸터를 아래로 밀어냅니다 */
+                    /* 제목은 키우되, 전체 사이즈에 맞춰 18px 정도로 밸런스를 잡았습니다 */
+                    .title { 
+                        font-size: 19px; 
+                        color: #ffffff; 
+                        font-weight: 800; 
+                        letter-spacing: -0.5px;
+                    }
+                    
+                    .clover { width: 42px; height: 42px; animation: float 3s ease-in-out infinite; }
+                    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+                    
+                    .stats-section { display: flex; align-items: center; gap: 6px; margin-top: -8px; }
+                    .grass-icon { width: 10px; height: 10px; background-color: #39d353; border-radius: 2px; }
+                    .commit-count { font-size: 20px; font-weight: bold; color: #f0f6fc; }
+                    .commit-label { font-size: 12px; color: #8b949e; }
+                    
+                    .divider { height: 1px; background-color: #30363d; margin: 4px 0; }
+                    
                     .fortune-text { 
-                        font-size: 16px; 
-                        line-height: 1.7; 
-                        color: #f5f5f5; 
+                        font-size: 14px; 
+                        line-height: 1.5; 
+                        color: #e6edf3; 
                         flex-grow: 1; 
                         display: flex; 
                         align-items: center;
-                        margin-bottom: 20px;
                     }
                     
                     .footer { 
                         display: flex; 
                         justify-content: space-between; 
-                        align-items: center; 
-                        font-size: 12px; 
+                        font-size: 10px; 
                         color: #484f58;
-                        padding-top: 10px;
                     }
                 </style>
                 <div class="fortune-card">
@@ -53,12 +60,12 @@
                     <div class="stats-section">
                         <div class="grass-icon"></div>
                         <div>
-                            <span class="commit-count">9</span>
+                            <span class="commit-count">11</span>
                             <span class="commit-label">Commits Today</span>
                         </div>
                     </div>
                     <div class="divider"></div>
-                    <div class="fortune-text">내일은 마우스 클릭 한 번, 키보드 한 타에 당신의 가치가 수직 상승하는 날입니다.</div>
+                    <div class="fortune-text">야행성 클로버가 행운의 가속도를 붙였습니다. 내일은 업무 효율이 '광속'에 도달합니다.</div>
                     <div class="footer">
                         <span>GitHub @hongsinugget</span>
                         <span>2026-02-14</span>
