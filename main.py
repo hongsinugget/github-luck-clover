@@ -43,26 +43,33 @@ try:
         img_data = ""
 
     svg_content = f"""
-    <svg width="320" height="280" viewBox="0 0 320 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="450" height="280" viewBox="0 0 450 280" fill="none" xmlns="http://www.w3.org/2000/svg">
         <foreignObject width="100%" height="100%">
             <div xmlns="http://www.w3.org/1999/xhtml">
                 <style>
                     .fortune-card {{
-                        width: 320px; min-height: 260px; background: #1a1a1a;
-                        border-radius: 16px; padding: 24px; color: #f5f5f5;
-                        font-family: 'Segoe UI', Roboto, sans-serif; box-sizing: border-box;
+                        width: 450px; 
+                        height: 280px; 
+                        background: #1a1a1a;
+                        border-radius: 20px; 
+                        padding: 28px; 
+                        color: #f5f5f5;
+                        font-family: 'Segoe UI', Roboto, sans-serif; 
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: column;
                     }}
                     .card-header {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }}
-                    .title {{ font-size: 14px; color: #f0f6fc; letter-spacing: 1px; }}
-                    .clover {{ width: 60px; height: 60px; animation: float 3s ease-in-out infinite; }}
-                    @keyframes float {{ 0%, 100% {{ transform: translateY(0) rotate(0); }} 50% {{ transform: translateY(-10px) rotate(5deg); }} }}
-                    .stats-section {{ display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }}
-                    .grass-icon {{ width: 12px; height: 12px; background-color: #39d353; border-radius: 2px; }}
-                    .commit-count {{ font-size: 24px; font-weight: bold; color: #f0f6fc; }}
-                    .commit-label {{ font-size: 13px; color: #8b949e; margin-left: 5px; }}
+                    .title {{ font-size: 15px; color: #f0f6fc; font-weight: 600; letter-spacing: 0.5px; }}
+                    .clover {{ width: 65px; height: 65px; animation: float 3s ease-in-out infinite; }}
+                    @keyframes float {{ 0%, 100% {{ transform: translateY(0) rotate(0); }} 50% {{ transform: translateY(-8px) rotate(5deg); }} }}
+                    .stats-section {{ display: flex; align-items: center; gap: 12px; margin-bottom: 15px; }}
+                    .grass-icon {{ width: 14px; height: 14px; background-color: #39d353; border-radius: 3px; }}
+                    .commit-count {{ font-size: 26px; font-weight: bold; color: #f0f6fc; }}
+                    .commit-label {{ font-size: 14px; color: #8b949e; margin-left: 5px; }}
                     .divider {{ height: 1px; background-color: #30363d; margin: 15px 0; }}
-                    .fortune-text {{ font-size: 15px; line-height: 1.6; color: #f5f5f5; }}
-                    .footer {{ display: flex; justify-content: space-between; align-items: center; margin-top: 20px; font-size: 11px; color: #484f58; }}
+                    .fortune-text {{ font-size: 16px; line-height: 1.7; color: #f5f5f5; flex-grow: 1; }}
+                    .footer {{ display: flex; justify-content: space-between; align-items: center; margin-top: 15px; font-size: 12px; color: #484f58; }}
                 </style>
                 <div class="fortune-card">
                     <div class="card-header">
@@ -93,13 +100,13 @@ try:
 
     with open("result.json", "w", encoding="utf-8") as f:
         json.dump(
-            {"date": today, "commits": today_commits, "fortune": my_fortune},
+            {{"date": today, "commits": today_commits, "fortune": my_fortune}},
             f,
             ensure_ascii=False,
             indent=4,
         )
 
-    print(f"✅ 성공! 오늘의 아이디: {username} / 운세: {my_fortune}")
+    print(f"✅ 성공! 오늘의 아이디: {{username}} / 운세: {{my_fortune}}")
 
 except Exception as e:
-    print(f"⚠️ 에러 발생: {e}")
+    print(f"⚠️ 에러 발생: {{e}}")
