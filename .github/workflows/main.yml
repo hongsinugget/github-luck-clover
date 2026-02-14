@@ -33,8 +33,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add fortune.svg result.json
           git commit -m "Update daily fortune" || echo "No changes to commit"
-<<<<<<< HEAD
           git push
-=======
-          git push
->>>>>>> 585307f (feat: 🍀 클로버 코딩운세  배포)
