@@ -60,7 +60,7 @@ try:
                         flex-direction: column;
                     }}
                     .card-header {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }}
-                    .title {{ font-size: 15px; color: #f0f6fc; font-weight: 600; letter-spacing: 0.5px; }}
+                    .title {{ font-size: 18px; color: #f0f6fc; font-weight: 800; letter-spacing: 0.5px; }}
                     .clover {{ width: 65px; height: 65px; animation: float 3s ease-in-out infinite; }}
                     @keyframes float {{ 0%, 100% {{ transform: translateY(0) rotate(0); }} 50% {{ transform: translateY(-8px) rotate(5deg); }} }}
                     .stats-section {{ display: flex; align-items: center; gap: 12px; margin-bottom: 15px; }}
@@ -73,7 +73,7 @@ try:
                 </style>
                 <div class="fortune-card">
                     <div class="card-header">
-                        <div class="title">오늘의 코딩운세</div>
+                        <div class="title">클로버 코딩운세</div>
                         <img src="{img_data}" class="clover" />
                     </div>
                     <div class="stats-section">
