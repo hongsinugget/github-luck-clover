@@ -1,32 +1,49 @@
 
-    <svg width="450" height="280" viewBox="0 0 450 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="450" height="300" viewBox="0 0 450 300" fill="none" xmlns="http://www.w3.org/2000/svg">
         <foreignObject width="100%" height="100%">
             <div xmlns="http://www.w3.org/1999/xhtml">
                 <style>
                     .fortune-card {
                         width: 450px; 
-                        height: 280px; 
+                        height: 300px; /* 검은 박스 높이를 전체 SVG 높이와 맞췄습니다 */
                         background: #1a1a1a;
-                        border-radius: 20px; 
-                        padding: 32px; 
+                        border-radius: 24px; 
+                        padding: 30px; /* 상하좌우 여백을 균일하게 줬습니다 */
                         color: #f5f5f5;
                         font-family: 'Segoe UI', Roboto, sans-serif; 
                         box-sizing: border-box;
                         display: flex;
                         flex-direction: column;
-                        justify-content: space-between;
                     }
                     .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
-                    .title { font-size: 18px; color: #f0f6fc; font-weight: 800; letter-spacing: 0.5px; }
+                    .title { font-size: 15px; color: #f0f6fc; font-weight: 600; }
                     .clover { width: 65px; height: 65px; animation: float 3s ease-in-out infinite; }
                     @keyframes float { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-8px) rotate(5deg); } }
-                    .stats-section { display: flex; align-items: center; gap: 12px; margin-bottom: 15px; }
+                    .stats-section { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
                     .grass-icon { width: 14px; height: 14px; background-color: #39d353; border-radius: 3px; }
-                    .commit-count { font-size: 26px; font-weight: bold; color: #f0f6fc; }
+                    .commit-count { font-size: 28px; font-weight: bold; color: #f0f6fc; }
                     .commit-label { font-size: 14px; color: #8b949e; margin-left: 5px; }
                     .divider { height: 1px; background-color: #30363d; margin: 15px 0; }
-                    .fortune-text { font-size: 16px; line-height: 1.7; color: #f5f5f5; flex-grow: 1; }
-                    .footer { display: flex; justify-content: space-between; align-items: center; margin-top: 15px; font-size: 12px; color: #484f58; }
+                    
+                    /* 운세 텍스트가 들어가는 공간을 유연하게 늘려 하단 푸터를 아래로 밀어냅니다 */
+                    .fortune-text { 
+                        font-size: 16px; 
+                        line-height: 1.7; 
+                        color: #f5f5f5; 
+                        flex-grow: 1; 
+                        display: flex; 
+                        align-items: center;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .footer { 
+                        display: flex; 
+                        justify-content: space-between; 
+                        align-items: center; 
+                        font-size: 12px; 
+                        color: #484f58;
+                        padding-top: 10px;
+                    }
                 </style>
                 <div class="fortune-card">
                     <div class="card-header">
@@ -36,12 +53,12 @@
                     <div class="stats-section">
                         <div class="grass-icon"></div>
                         <div>
-                            <span class="commit-count">8</span>
+                            <span class="commit-count">9</span>
                             <span class="commit-label">Commits Today</span>
                         </div>
                     </div>
                     <div class="divider"></div>
-                    <div class="fortune-text">내일은 퇴근길 노을이 유난히 예쁠 거예요. 잠시 멈춰 서서 사진을 찍으면 행운이 찾아옵니다.</div>
+                    <div class="fortune-text">내일은 마우스 클릭 한 번, 키보드 한 타에 당신의 가치가 수직 상승하는 날입니다.</div>
                     <div class="footer">
                         <span>GitHub @hongsinugget</span>
                         <span>2026-02-14</span>
