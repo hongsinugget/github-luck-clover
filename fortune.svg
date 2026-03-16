@@ -60,15 +60,15 @@
                     <div class="stats-section">
                         <div class="grass-icon"></div>
                         <div>
-                            <span class="commit-count">6</span>
+                            <span class="commit-count">0</span>
                             <span class="commit-label">Commits Today</span>
                         </div>
                     </div>
                     <div class="divider"></div>
-                    <div class="fortune-text">내일은 당신의 안경 도수가 갑자기 잘 맞는 것처럼 세상이 선명하게 보일 운세입니다.</div>
+                    <div class="fortune-text">내일은 이어폰에서 당신이 가장 좋아하는 노래가 타이밍 좋게 흘러나올 운명입니다.</div>
                     <div class="footer">
                         <span>GitHub @hongsinugget</span>
-                        <span>2026-03-15</span>
+                        <span>2026-03-16</span>
                     </div>
                 </div>
             </div>
