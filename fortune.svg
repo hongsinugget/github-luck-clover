@@ -60,15 +60,15 @@
                     <div class="stats-section">
                         <div class="grass-icon"></div>
                         <div>
-                            <span class="commit-count">0</span>
+                            <span class="commit-count">2</span>
                             <span class="commit-label">Commits Today</span>
                         </div>
                     </div>
                     <div class="divider"></div>
-                    <div class="fortune-text">야행성 클로버가 행운의 마침표를 찍었습니다. 내일 당신의 하루는 완벽한 문장으로 마무리됩니다.</div>
+                    <div class="fortune-text">클로버가 전하길, "내일은 당신의 코드가 누군가에게는 큰 힘이 되는 '선물'이 될 것입니다."</div>
                     <div class="footer">
                         <span>GitHub @hongsinugget</span>
-                        <span>2026-03-21</span>
+                        <span>2026-03-22</span>
                     </div>
                 </div>
             </div>
