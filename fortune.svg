@@ -60,15 +60,15 @@
                     <div class="stats-section">
                         <div class="grass-icon"></div>
                         <div>
-                            <span class="commit-count">1</span>
+                            <span class="commit-count">0</span>
                             <span class="commit-label">Commits Today</span>
                         </div>
                     </div>
                     <div class="divider"></div>
-                    <div class="fortune-text">내일은 당신의 건강 지수가 Stable 상태입니다. 밤샘 코딩도 거뜬하지만, 잠은 꼭 주무세요!</div>
+                    <div class="fortune-text">내일은 당신의 마음이 Cloud 서버처럼 넓고 포용력 있게 변하는 날입니다.</div>
                     <div class="footer">
                         <span>GitHub @hongsinugget</span>
-                        <span>2026-03-24</span>
+                        <span>2026-03-25</span>
                     </div>
                 </div>
             </div>
