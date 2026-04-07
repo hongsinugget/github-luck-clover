@@ -60,15 +60,15 @@
                     <div class="stats-section">
                         <div class="grass-icon"></div>
                         <div>
-                            <span class="commit-count">4</span>
+                            <span class="commit-count">0</span>
                             <span class="commit-label">Commits Today</span>
                         </div>
                     </div>
                     <div class="divider"></div>
-                    <div class="fortune-text">내일은 복잡한 고민이 Boolean 값처럼 '예/아니오'로 명확해지는 날입니다.</div>
+                    <div class="fortune-text">클로버가 조언합니다. "내일은 Stack Overflow 답변 작성자가 당신의 미래 모습처럼 보일 것입니다."</div>
                     <div class="footer">
                         <span>GitHub @hongsinugget</span>
-                        <span>2026-04-06</span>
+                        <span>2026-04-07</span>
                     </div>
                 </div>
             </div>
