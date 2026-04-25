@@ -60,15 +60,15 @@
                     <div class="stats-section">
                         <div class="grass-icon"></div>
                         <div>
-                            <span class="commit-count">1</span>
+                            <span class="commit-count">0</span>
                             <span class="commit-label">Commits Today</span>
                         </div>
                     </div>
                     <div class="divider"></div>
-                    <div class="fortune-text">내일은 왠지 모르게 '민트초코' 같은 호불호 갈리는 음식이 맛있게 느껴질 수도 있습니다.</div>
+                    <div class="fortune-text">내일 오전 회의에선 그냥 끄덕이세요. 당신의 뇌는 오후 2시부터 정식 '배포'됩니다.</div>
                     <div class="footer">
                         <span>GitHub @hongsinugget</span>
-                        <span>2026-04-24</span>
+                        <span>2026-04-25</span>
                     </div>
                 </div>
             </div>
