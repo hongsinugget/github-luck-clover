@@ -60,15 +60,15 @@
                     <div class="stats-section">
                         <div class="grass-icon"></div>
                         <div>
-                            <span class="commit-count">1</span>
+                            <span class="commit-count">3</span>
                             <span class="commit-label">Commits Today</span>
                         </div>
                     </div>
                     <div class="divider"></div>
-                    <div class="fortune-text">클로버 가라사대, "내일은 억지로 코드를 짜지 마세요. 코드가 당신을 찾아오게 하세요."</div>
+                    <div class="fortune-text">내일은 동료의 실수를 너그럽게 넘겨주세요. 그 배려가 오후에 맛있는 간식으로 돌아옵니다.</div>
                     <div class="footer">
                         <span>GitHub @hongsinugget</span>
-                        <span>2026-06-16</span>
+                        <span>2026-06-17</span>
                     </div>
                 </div>
             </div>
