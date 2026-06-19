@@ -60,15 +60,15 @@
                     <div class="stats-section">
                         <div class="grass-icon"></div>
                         <div>
-                            <span class="commit-count">1</span>
+                            <span class="commit-count">2</span>
                             <span class="commit-label">Commits Today</span>
                         </div>
                     </div>
                     <div class="divider"></div>
-                    <div class="fortune-text">클로버가 조언합니다. "내일은 Dark Mode를 끄고 잠시 세상을 바라보세요. 색감이 풍성해집니다."</div>
+                    <div class="fortune-text">내일은 왠지 모르게 Command + F를 누르지 않아도 원하는 코드를 단번에 찾아내는 직관이 발동합니다.</div>
                     <div class="footer">
                         <span>GitHub @hongsinugget</span>
-                        <span>2026-06-18</span>
+                        <span>2026-06-19</span>
                     </div>
                 </div>
             </div>
